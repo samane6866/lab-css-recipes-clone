@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  border: 0;
+  font-size: 25px;
+  font-weight: 50;
+}
+
+body {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "open Sans", sans-serif;
+}
+
+/* HEAD */
+.head {
+  background-image: url(../images/apple-pie.jpg);
+  height: 800px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.cooking-info p {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4em;
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: 300;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+/* SECTION 1 */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cooking-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cooking-info img {
+  width: 530px;
+  border-bottom: 10px;
+  margin-bottom: 50px;
+}
+/* section2 */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 2px solid lightgray;
+  width: 50%;
+}
+.section2 ul {
+  list-style: "- ";
+  margin-right: 100px;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+ol li::before {
+  content: "" counter(section) ") ";
+  counter-increment: section;
+}
+
+/* ol li::before {
+    content: ") ";
+  } */
+
+.ingredient {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+.section2 img {
+  width: 430px;
+  border-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+.recipe-foto {
+  align-self: center;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+
+  border-top: 2px solid lightgray;
+  border-bottom: 2px;
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
